@@ -161,9 +161,9 @@ const clickDarkmatter = async () => {
     await ensurePageReady();
 
     const r = Math.random();
-    if (r < 0.2) {
+    if (r < 0.5) {
       await movePet();
-    } else if (r < 0.3) {
+    } else if (r < 0.8) {
       await petThePet();
     } else {
       await clickDarkmatter();
